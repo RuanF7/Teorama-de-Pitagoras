@@ -29,7 +29,11 @@ function AddRow() {
 
     list1[x] = document.getElementById("xInput").value;
     list2[x] = document.getElementById("yInput").value;
-    list3[x] = Math.round(Math.sqrt((list1 * list1) + (list2 * list2)));
+    
+    list3 = [] ;
+        for (var i = 0; i < list1.length; i++) {
+            list3[i] = Math.round(Math.sqrt((list1[i]*list1[i]) + (list2[i]*list2[i])));
+        }
 
 
 
