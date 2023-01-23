@@ -1,8 +1,8 @@
 var button = document.getElementById('button');
 
 function calcHipotenusa() {
-    var a = document.getElementById('aInput').value;
-    var b = document.getElementById('bInput').value;
+    var a = document.getElementById('xInput').value;
+    var b = document.getElementById('yInput').value;
 
     var resultado = document.getElementById('resultado');
 
