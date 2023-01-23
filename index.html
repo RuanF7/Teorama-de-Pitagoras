@@ -23,13 +23,23 @@
 
         <img id="triangulo" alt="triangulo" src="Triangulo.png">
 
-        <input placeholder="X" id="xInput" class="text-white bg-danger">
+        <input placeholder="X" id="xInput" class="text-white bg-danger" onfocus="this.value= '' ">
 
-        <input placeholder="Y" id="yInput" class="text-white bg-danger">
+        <input placeholder="Y" id="yInput" class="text-white bg-danger" onfocus="this.value= '' ">
 
         <div id="resultado" class="text-white bg-danger"></div>
 
-        <button id="button" class="text-white btn btn-danger">Calcular</button>
+        <button id="button" class="text-white btn btn-danger" onclick="AddRow()">Calcular</button>
+    
+        <table border="4" id="show">
+            <thead>
+                <tr>
+                    <th>X</th>
+                    <th>Y</th>
+                    <th>Hipotenusa</th>
+                </tr>
+            </thead>
+        </table>
     </div>
     
 <script src="index.js"></script>

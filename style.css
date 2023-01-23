@@ -47,7 +47,7 @@ button {
     width: 90px;
     font-weight: bold !important;  
     text-align: center;
-    
+    left: 180px;
 }
 
 #resultado {
@@ -57,6 +57,7 @@ button {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
+    left: 195px;
     
 }
 
@@ -74,6 +75,18 @@ button {
 
     
 }
+
+table {
+    margin-top: 50px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+
+#show th {
+    padding: 13px;
+}
+
 
 @media screen and (max-width: 775px){
     #titulo {
