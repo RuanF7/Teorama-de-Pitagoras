@@ -1,5 +1,7 @@
+//
 var button = document.getElementById('button');
 
+//Função para pegar os valores dos inputs, calcular a hipotenusa e retornar o resultado
 function calcHipotenusa() {
     var a = document.getElementById('xInput').value;
     var b = document.getElementById('yInput').value;
@@ -11,10 +13,10 @@ function calcHipotenusa() {
     resultado.innerHTML=hipotenusa;
 };
 
-
+//Chamar a função calcHipotenusa ao clicar no botão "Calcular"
 button.addEventListener('click', calcHipotenusa)
 
-
+//Variaveis para os arrays a serem colocados na tabela
 var list1 = [];
 var list2 = [];
 var list3 = [];
@@ -22,7 +24,7 @@ var list3 = [];
 var n = 1;
 var x = 0;
 
-
+//Função para adicionar os valores de X, Y e da hipotenusa e colocar nas linhas da tabela
 function AddRow() {
     var AddRow = document.getElementById('show');
     var NewRow = AddRow.insertRow(n);

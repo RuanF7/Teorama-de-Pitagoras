@@ -1,7 +1,8 @@
+/*Geral*/
 * {
     position: relative;
 }
-
+/*Imagem*/
 #triangulo {
     width: 500px;
     display: flex;
@@ -22,13 +23,12 @@ body {
     display: table;
 }
 
+/*Placeholders e inputs*/
 input::placeholder{
     text-align: center;
     font-weight: bold;
     color: white;
 }
-
-
 
 #xInput {
     
@@ -43,6 +43,7 @@ input::placeholder{
     text-align: center;
 }
 
+/*Botão*/
 button {
     width: 90px;
     font-weight: bold !important;  
@@ -50,6 +51,7 @@ button {
     left: 180px;
 }
 
+/*Para o resultado que aparece após o calculo dos inputs*/
 #resultado {
     width: 40px;    
     text-align: center;
@@ -61,6 +63,7 @@ button {
     
 }
 
+/*Header*/
 #titulo {
     text-align: center;
     margin: 0 auto;
@@ -70,24 +73,25 @@ button {
     width: 50%;
     border: 5px black inset;
     border-bottom: gray inset;
-    border-right: gray inset;
-    
-
-    
+    border-right: gray inset;  
 }
 
+/*Tabela*/
 table {
     margin-top: 50px;
     text-align: center;
     background: #333;
     color: #fff;
+    width: 100%;
+    
 }
 
+/*Itens da tabela*/
 #show th {
     padding: 13px;
 }
 
-
+/*Responsividade do header*/
 @media screen and (max-width: 775px){
     #titulo {
         font-size: 30px;
